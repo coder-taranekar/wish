@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Happy New Year 💖</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700&family=Pacifico&display=swap" rel="stylesheet">
+
+<style>
+body{
+margin:0;
+min-height:100vh;
+background:linear-gradient(135deg,#ffc0d9,#ffe6f1);
+font-family:'Baloo 2',cursive;
+display:flex;
+justify-content:center;
+align-items:center;
+overflow:hidden;
+}
+
+.card{
+background:#fff;
+width:380px;
+padding:40px 30px;
+border-radius:35px;
+text-align:center;
+box-shadow:0 25px 50px rgba(255,105,180,0.35);
+position:relative;
+}
+
+.bow{
+width:90px;
+position:absolute;
+top:-45px;
+left:50%;
+transform:translateX(-50%);
+}
+
+h1{
+font-family:'Pacifico',cursive;
+color:#ff4fa1;
+font-size:2.4rem;
+margin-bottom:10px;
+}
+
+p{
+font-size:1.1rem;
+color:#444;
+}
+
+.btn{
+display:block;
+margin-top:15px;
+padding:14px;
+border-radius:40px;
+background:linear-gradient(135deg,#ff69b4,#ff9ad5);
+color:white;
+text-decoration:none;
+font-size:1.1rem;
+font-weight:600;
+transition:0.3s;
+}
+
+.btn:hover{
+transform:scale(1.08);
+}
+
+.sticker{
+position:absolute;
+font-size:1.8rem;
+opacity:0.8;
+animation:float 4s ease-in-out infinite;
+}
+
+.s1{top:12%;left:8%;}
+.s2{top:20%;right:10%;animation-delay:1s;}
+.s3{bottom:15%;left:12%;animation-delay:2s;}
+.s4{bottom:10%;right:12%;animation-delay:3s;}
+
+@keyframes float{
+0%{transform:translateY(0);}
+50%{transform:translateY(-15px);}
+100%{transform:translateY(0);}
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+<img class="bow" src="https://pngimg.com/uploads/bow/bow_PNG101077.png" alt="bow">
+
+<h1>Happy New Year 🎉</h1>
+
+<p>
+New year.<br>
+Same engineering stress.<br>
+Same chaotic <b>us</b> 😌
+</p>
+
+<p>
+This website exists because<br>
+simple wishes are boring 💅
+</p>
+
+<a class="btn" href="hate.html">I Hate You 😤</a>
+<a class="btn" href="best.html">You Are The Best 🥺</a>
+<a class="btn" href="surprise.html">Don’t Skip This 🎁</a>
+</div>
+
+<div class="sticker s1">🎀</div>
+<div class="sticker s2">💖</div>
+<div class="sticker s3">✨</div>
+<div class="sticker s4">💕</div>
+
+</body>
+</html>
